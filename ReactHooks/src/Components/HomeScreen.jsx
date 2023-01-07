@@ -8,6 +8,10 @@ const HomeScreen = () => {
     <div>
        <center>
        Welcome {name.toUpperCase()}
+
+       <p>
+        lorem
+       </p>
        </center>
     </div>
   )
