@@ -2,6 +2,7 @@ import React from 'react'
 import { useRoutes } from 'react-router-dom'
 import HomeScreen from './Components/HomeScreen'
 import LoginScreen from './Components/LoginScreen'
+import CustomHooks from './Components/UseDebugValue/CustomHooks'
 
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
   let element = useRoutes([
     {
       path: "/",
-      element: <LoginScreen />
+      // element: <LoginScreen />
+      element: <CustomHooks />
     },
     {
       path: "homepage",
