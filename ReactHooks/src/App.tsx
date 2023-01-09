@@ -3,6 +3,7 @@ import { useRoutes } from 'react-router-dom'
 import HomeScreen from './Components/HomeScreen'
 import LoginScreen from './Components/LoginScreen'
 import CustomHooks from './Components/UseDebugValue/CustomHooks'
+import TaskApp from './Components/UseReducer/UseCaseOfUseReducer'
 
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
     {
       path: "/",
       // element: <LoginScreen />
-      element: <CustomHooks />
+      // element: <CustomHooks />
+      element: <TaskApp />
     },
     {
       path: "homepage",
