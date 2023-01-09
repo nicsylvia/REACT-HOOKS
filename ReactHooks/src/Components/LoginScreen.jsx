@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { UseContext } from './UseContext/UseContext';
+import useToggle from './UseDebugValue/useToggle';
 
 const LoginScreen = () => {
 
@@ -11,6 +12,8 @@ const LoginScreen = () => {
     const registerUser = () =>{
         navigate("/homepage");
     };
+
+    const [submit, setSubmit] = useToggle();
 
   return (
     <div>
@@ -39,8 +42,10 @@ const LoginScreen = () => {
             <br />
             <br />
             <button 
-            onClick={registerUser}
-            >Submit</button>
+           
+            onClick={setSubmit}
+            //  onClick={registerUser}
+            >{submit ? "Submitted Already" : "Submit"}</button>
         </center>
     </div>
   )
