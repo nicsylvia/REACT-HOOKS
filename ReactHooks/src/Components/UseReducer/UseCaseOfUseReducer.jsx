@@ -42,7 +42,7 @@ function TaskApp() {
     return (
       
         <center>
-                <h1>Prague itinerary</h1>
+                <h1>Sylvia's itinerary</h1>
                 <AddTask
                 onAddTask={handleAddTask}
                 />

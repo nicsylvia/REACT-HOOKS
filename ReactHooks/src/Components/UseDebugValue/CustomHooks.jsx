@@ -4,7 +4,7 @@ import useToggle from './useToggle'
 
 const CustomHooks = () => {
 
-    const [text, setText] = useToggle();
+    const [text, setText] = useToggle()
 
   return (
    <center>
