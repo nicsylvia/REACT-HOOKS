@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { UseContext } from './UseContext/UseContext'
+import { UseContext } from './UseContext'
 
 const HomeScreen = () => {
 

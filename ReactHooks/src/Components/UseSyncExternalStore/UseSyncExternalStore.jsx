@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useSyncExternalStore } from "react";
 import styled from "styled-components";
@@ -19,7 +18,7 @@ const getSnapshot = () => {
 };
 
 const subscribe = (callback) => {
-  window.addEventListener("online", callback);
+  window.addEventListener("online", callback);                                 
   window.addEventListener("offline", callback);
 
   return () => {

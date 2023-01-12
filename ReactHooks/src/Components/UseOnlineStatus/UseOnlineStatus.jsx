@@ -1,6 +1,6 @@
 
 import React from "react";
-import { useOnlineStatus } from "../../utilities/useOnlineStatus";
+import { useOnlineStatus } from "react";
 
 const Home = () => {
   const isOnline = useOnlineStatus();

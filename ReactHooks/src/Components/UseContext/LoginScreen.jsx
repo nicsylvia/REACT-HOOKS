@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { UseContext } from './UseContext/UseContext';
+import { UseContext } from './UseContext';
 
 const LoginScreen = () => {
 
